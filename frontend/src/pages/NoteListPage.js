@@ -30,7 +30,6 @@ const NotesListPage = () => {
                 {notes.map((note, index) => (
                     <ListItem key={index} note={note} />
                 ))}
-                getNotes()
             </div>
             <AddButton />
         </div>
